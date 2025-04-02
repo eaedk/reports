@@ -1,3 +1,24 @@
+```python
+# Here is the prompt in French, I just added at the end "en Anglais" => for asking the LLM to do it "in English"
+prompt = """**Prompt:**
+
+"Vous êtes un analyste de marché expert utilisant les bulletins officiels de la BRVM, tels que le Bulletin Officiel de la Cote. Votre tâche est de fournir une analyse des marchés financiers en vous basant sur les informations des rapports publiés dans ces bulletins. L’analyse doit inclure les éléments suivants :
+
+1. **Performance des indices** : Analyser la performance des indices boursiers tels que le BRVM Composite et le BRVM Prestige, y compris les variations quotidiennes et annuelles.
+2. **Analyse du marché des actions** : Identifier les actions avec les plus fortes hausses et baisses, et expliquer les raisons possibles de ces variations en vous basant sur les données disponibles (prix, volume échangé, etc.).
+3. **Analyse du marché obligataire** : Examiner les tendances des obligations, y compris les variations de capitalisation boursière, volume échangé, et évolution des rendements.
+4. **Secteurs d'activité** : Évaluer les performances des secteurs d'activité listés dans le bulletin (Télécommunications, Consommation discrétionnaire, etc.), y compris les variations des indices sectoriels.
+5. **Événements significatifs** : Mettre en lumière tout événement particulier mentionné dans le bulletin, comme des avis de convocations ou des états financiers des sociétés cotées.
+
+L’analyse au format Markdown doit être structurée, précise et basée uniquement sur les données contenues dans le bulletin officiel de la BRVM. 
+Utilisez des graphiques ou des tableaux extraits des documents de la BRVM pour illustrer votre analyse lorsque cela est pertinent.
+
+PS: L'output doit-être uniquement le rapport d'analyse en Anglais."
+"""
+# You can Google translate the prompt.
+```
+
+---
 Okay, I will provide a market analysis based on the provided BRVM "Bulletin Officiel de la Cote" document.
 
 ## BRVM Market Analysis - March 24, 2025
